@@ -1,0 +1,23 @@
+CREATE TABLE bronze_german_credit_raw (
+    col_1  VARCHAR(20),
+    col_2  VARCHAR(20),
+    col_3  VARCHAR(20),
+    col_4  VARCHAR(20),
+    col_5  VARCHAR(20),
+    col_6  VARCHAR(20),
+    col_7  VARCHAR(20),
+    col_8  VARCHAR(20),
+    col_9  VARCHAR(20),
+    col_10 VARCHAR(20),
+    col_11 VARCHAR(20),
+    col_12 VARCHAR(20),
+    col_13 VARCHAR(20),
+    col_14 VARCHAR(20),
+    col_15 VARCHAR(20),
+    col_16 VARCHAR(20),
+    col_17 VARCHAR(20),
+    col_18 VARCHAR(20),
+    col_19 VARCHAR(20),
+    col_20 VARCHAR(20),
+    col_21 VARCHAR(20)
+);
