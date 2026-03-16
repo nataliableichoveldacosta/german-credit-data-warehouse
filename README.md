@@ -1,6 +1,6 @@
 # German Credit Data Warehouse
 
-🇺🇸 English
+## 🇺🇸 English
 
 This project builds a Data Warehouse using the German Credit dataset.
 
@@ -10,40 +10,58 @@ Architecture used:
 
 Bronze → Silver → Gold
 
-Bronze Layer  
+### Bronze Layer
 Raw data ingestion from the original dataset.
 
-Silver Layer  
+### Silver Layer
 Data cleaning, type conversion, and feature preparation.
 
-Gold Layer  
+### Gold Layer
 Dimensional modeling using a Star Schema.
 
-Tables created:
+---
 
-Dimensions
+## Data Architecture
+
+![Medallion Architecture](docs/medallion_architecture_en.png)
+
+---
+
+## Data Warehouse Model
+
+![Star Schema](docs/star_schema.png)
+
+---
+
+## Tables Created
+
+### Dimensions
 - dim_customer_profile
 - dim_financial_profile
 - dim_credit_request
 - dim_collateral_housing
 
-Fact Table
+### Fact Table
 - fact_credit_risk
 
-Technologies used
+---
+
+## Technologies Used
 
 - SQL
 - MySQL
 - Git
 - GitHub
 
-Dataset source:
-UCI Machine Learning Repository — German Credit Dataset.
+---
 
+## Dataset Source
+
+UCI Machine Learning Repository — German Credit Dataset.
 
 ---
 
-🇧🇷 Português
+# 🇧🇷 Português
 
 Este projeto constrói um Data Warehouse utilizando o dataset German Credit.
 
@@ -53,32 +71,51 @@ Arquitetura utilizada:
 
 Bronze → Silver → Gold
 
-Camada Bronze  
+### Camada Bronze
 Ingestão dos dados brutos do dataset original.
 
-Camada Silver  
+### Camada Silver
 Limpeza dos dados, conversão de tipos e preparação das variáveis.
 
-Camada Gold  
+### Camada Gold
 Modelagem dimensional utilizando Star Schema.
 
-Tabelas criadas:
+---
 
-Dimensões
+## Arquitetura de Dados
+
+![Medallion Architecture](docs/medallion_architecture_pt.png)
+
+---
+
+## Modelo do Data Warehouse
+
+![Star Schema](docs/star_schema.png)
+
+---
+
+## Tabelas Criadas
+
+### Dimensões
 - dim_customer_profile
 - dim_financial_profile
 - dim_credit_request
 - dim_collateral_housing
 
-Tabela Fato
+### Tabela Fato
 - fact_credit_risk
 
-Tecnologias utilizadas
+---
+
+## Tecnologias Utilizadas
 
 - SQL
 - MySQL
 - Git
 - GitHub
 
-Fonte do dataset:
+---
+
+## Fonte do Dataset
+
 UCI Machine Learning Repository — German Credit Dataset.
